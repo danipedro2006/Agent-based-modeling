@@ -97,6 +97,22 @@ public class DotPanel extends JPanel {
 			System.out.println("Error sleeping");
 		}
 	}
+
+
+	public void drawSquare(int x, int y, Color c) {
+		setPenColor(c);
+		offscreen.fillRect(x*dotSize, y*dotSize, 2*dotSize, 2*dotSize);
+		if(autoShow) {
+			repaintAndSleep(0);
+		}
+		
+	}
+
+
+	public void drawCircle(int xPoint, int yPoint, Color color) {
+		// TODO Auto-generated method stub
+		
+	}
 	
 	
 }

@@ -24,7 +24,8 @@ public class PPSim extends JFrame implements KeyListener, MouseListener, MouseMo
 	public PPSim() {
 		this.setSize(MAX_X*DOT_SIZE,MAX_Y*DOT_SIZE);
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		this.setResizable(false);this.setTitle("Predator Prey World");
+		this.setResizable(false);
+		this.setTitle("Predator Prey World");
 		
 		dp=new DotPanel(MAX_X, MAX_Y, DOT_SIZE);
 		
@@ -42,13 +43,10 @@ public class PPSim extends JFrame implements KeyListener, MouseListener, MouseMo
 		//Create simulation world
 		while(true) {
 			ppWorld.update();
-			ppWorld.draw();
+			ppWorld.draw(dp);
 			dp.repaintAndSleep(80);
 		}
 	}
-	
-	
-	
 	
 	
 
