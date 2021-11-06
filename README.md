@@ -1,1 +1,3 @@
-# Artificial-Intelligence
+# Agent-Based Modeling
+
+ Agent-based modeling (ABM) refers to a model and simulation technique that infers the behavior of a system from the action and interaction of individuals. Modeling techniques range from simple and easy to complex and hard. It is often argued that agent-based modeling and simulation starts from "natural" description of a system (i.e. observable behavior and interactions of individuals) and that it can capture emergent phenomena in a flexible way.
