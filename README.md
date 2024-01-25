@@ -24,7 +24,7 @@ Modeling techniques range from simple and easy to complex and hard. This model s
 * Java Swing  
 
 ## Status
-Project is unde development.
+Project is no longer maintained.
 
 ## Contact
 Created by @Danisoft Arad 2021(https://danipedro2006.github.io/) - feel free to contact me!
